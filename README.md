@@ -1,7 +1,9 @@
 # DeepMatte-Bayesian
 
 ## Overview
-This project is the final project for the MSc Computational Methods course at Trinity College Dublin (TCD). It utilizes a Bayesian matting algorithm to separate the foreground and background of images. Traditional Bayesian matting methods require initial user input to define rough foreground and background regions before computation. However, this project innovatively trains a U-Net model with a sigmoid activation function in the output layer to produce a smooth trimap, thereby eliminating the need for user input.
+This project is the final project for the MSc Computational Methods course at Trinity College Dublin (TCD). 
+
+It utilizes a Bayesian matting algorithm to separate the foreground and background of images. Traditional Bayesian matting methods require initial user input to define rough foreground and background regions before computation. However, this project innovatively trains a U-Net model with a sigmoid activation function in the output layer to produce a smooth trimap, thereby eliminating the need for user input.
 
 ![Process](process.png)
 ![Structure](structure.png)
